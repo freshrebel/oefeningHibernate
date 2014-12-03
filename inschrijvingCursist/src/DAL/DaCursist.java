@@ -5,11 +5,22 @@
  */
 package DAL;
 
+import BO.*;
+import com.mysql.jdbc.PreparedStatement;
+import org.hibernate.Session;
+
+
 /**
  *
  * @author Arno
  */
 public class DaCursist
 {
-    
+    public void insert(Cursist cursist)
+    {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
+        session.persist(cursist);
+        session.getTransaction().commit();
+    }
 }
