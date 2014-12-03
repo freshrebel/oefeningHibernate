@@ -1,5 +1,5 @@
-[Wed Dec 03 13:35:28.797575 2014] [mpm_winnt:notice] [pid 14852:tid 540] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Dec 03 13:35:28.797575 2014] [mpm_winnt:notice] [pid 14852:tid 540] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Dec 03 13:35:28.797575 2014] [core:notice] [pid 14852:tid 540] AH00094: Command line: 'C:\\Users\\Arno\\Desktop\\webserver/apache2/bin/httpd_usbwv8.exe -d C:/Users/Arno/Desktop/webserver/apache2'
-[Wed Dec 03 13:35:28.797575 2014] [mpm_winnt:notice] [pid 14852:tid 540] AH00418: Parent: Created child process 4980
-[Wed Dec 03 13:35:30.203889 2014] [mpm_winnt:notice] [pid 4980:tid 560] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 03 14:28:52.597184 2014] [mpm_winnt:notice] [pid 31352:tid 496] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Wed Dec 03 14:28:52.597184 2014] [mpm_winnt:notice] [pid 31352:tid 496] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Wed Dec 03 14:28:52.597184 2014] [core:notice] [pid 31352:tid 496] AH00094: Command line: 'C:\\Users\\Arno\\Documents\\Programmeren4\\Les8\\git\\oefeningHibernate\\webserver/apache2/bin/httpd_usbwv8.exe -d C:/Users/Arno/Documents/Programmeren4/Les8/git/oefeningHibernate/webserver/apache2'
+[Wed Dec 03 14:28:52.601189 2014] [mpm_winnt:notice] [pid 31352:tid 496] AH00418: Parent: Created child process 17248
+[Wed Dec 03 14:28:55.225047 2014] [mpm_winnt:notice] [pid 17248:tid 564] AH00354: Child: Starting 64 worker threads.

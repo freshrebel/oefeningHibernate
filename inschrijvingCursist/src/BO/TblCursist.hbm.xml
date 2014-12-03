@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 3-dec-2014 14:45:02 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="gegevensdb" name="BO.Cursist" optimistic-lock="version" table="tbl_cursist">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="naam" type="int">
+      <column name="naam" not-null="true"/>
+    </property>
+    <property name="adres" type="int">
+      <column name="adres" not-null="true"/>
+    </property>
+    <property name="email" type="int">
+      <column name="email" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>
