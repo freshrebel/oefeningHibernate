@@ -7,13 +7,13 @@
       <column name="id"/>
       <generator class="identity"/>
     </id>
-    <property name="naam" type="int">
+    <property name="naam" type="string">
       <column name="naam" not-null="true"/>
     </property>
-    <property name="adres" type="int">
-      <column name="adres" not-null="true"/>
+    <property name="adres" type="string">
+      <column length="2000" name="adres" not-null="true"/>
     </property>
-    <property name="email" type="int">
+    <property name="email" type="string">
       <column name="email" not-null="true"/>
     </property>
   </class>
