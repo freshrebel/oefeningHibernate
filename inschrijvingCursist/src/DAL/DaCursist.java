@@ -6,7 +6,7 @@
 package DAL;
 
 import BO.*;
-import com.mysql.jdbc.PreparedStatement;
+import org.hibernate.Query;
 import org.hibernate.Session;
 
 
@@ -32,5 +32,17 @@ public class DaCursist
         session.getTransaction().commit();
     }
     
+    public void delete(Cursist cursist)
+    {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
+        session.delete(cursist);
+        session.getTransaction().commit();
+    }
     
+//    public Cursist SelectOne(int id)
+//    {
+//        Session session = HibernateUtil.getSessionFactory().openSession();
+//        Query q = session.createQuery("from tbl_cursist where id = " + id);
+//    }
 }
