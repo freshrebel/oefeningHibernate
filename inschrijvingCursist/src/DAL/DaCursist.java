@@ -23,4 +23,14 @@ public class DaCursist
         session.persist(cursist);
         session.getTransaction().commit();
     }
+    
+    public void update(Cursist cursist)
+    {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
+        session.saveOrUpdate(cursist);
+        session.getTransaction().commit();
+    }
+    
+    
 }
